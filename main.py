@@ -35,4 +35,4 @@ async def stop(interaction: discord.Interaction):
     else:
         await interaction.response.send_message("Wala naman ako tumutugtog eh!")
 
-bot.run(os.getenv("DISCORD_TOKEN")                                              
+bot.run(os.getenv("DISCORD_TOKEN"))                                             
